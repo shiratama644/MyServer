@@ -1,0 +1,166 @@
+{
+  "main": {
+    "id": "571d3092919138c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "01786e9910ef7978",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0016382f08fcde30",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16650512f07ca1f8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "8e4f97a27ca51142",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "5f103a24a85fecb9",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "c1c7e560f73ae218",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "86c06e04510dc5ef",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "87767187d9a08e88",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d7efd629e57e4ae8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "fd271b482ecc525d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "f4fc15731fcfa6ba",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Untitled.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "8e4f97a27ca51142",
+  "lastOpenFiles": [
+    "詳細サイト構成/discord-bot.md",
+    "詳細サイト構成/admin (管理者ダッシュボード).md",
+    "詳細サイト構成/cpu-ranking (CPUランキングサイト).md",
+    "詳細サイト構成/discord-chat (Discordチャット連携).md",
+    "詳細サイト構成/portfolio (ポートフォリオ).md",
+    "詳細サイト構成/3d-fps (オンラインFPSゲーム).md",
+    "詳細サイト構成/seitokai (中学校生徒会HP).md",
+    "サーバー構成.md",
+    "サイト構成.md",
+    "詳細サイト構成/youtube-proxy (YouTubeプロキシ).md",
+    "詳細サイト構成",
+    "Untitled.md"
+  ]
+}
