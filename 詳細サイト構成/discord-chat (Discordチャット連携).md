@@ -1,0 +1,23 @@
+`discord-chat` (Discordチャット連携)
+
+-   **URLパス:** `/dischat/`
+-   **フォルダ:** `srv/discord-chat/`
+-   **概要:** Discordの特定チャンネルと連携し、Web UI上でチャットができるサイト。
+-   **構成:** **分離型 (Frontend + Backend)**
+-   **フロントエンド:** Next.js
+    -   UI: DiscordライクなUI
+    -   機能: メッセージのリアルタイム表示、Webからのメッセージ送信
+-   **バックエンド:** Express.js
+    -   **ポート (PM2):** `3004`
+    -   **通信プロトコル:** **WebSocket** (`Socket.IO`)
+    -   **機能:**
+        -   `discord-bot` プロセスと内部通信（Redis Pub/Subを使用）
+        -   WebクライアントとのWebSocket接続を管理
+        -   WebからのメッセージをBotに転送
+        -   BotからのメッセージをWebクライアントにブロードキャスト
+-   **データベース:** (discord-bot側で管理)
+-   **ユーザー規模:**
+    -   ユーザー数: (Discordサーバーに依存)
+    -   同時接続数: 約1〜5人
+-   **TODO:**
+    -   `discord-bot` プロセスとこのバックエンド間の連携方法を具体的に設計する（Redis Pub/Sub）。
