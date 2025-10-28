@@ -1,5 +1,3 @@
-`discord-chat` (Discordチャット連携)
-
 -   **URLパス:** `/dischat/`
 -   **フォルダ:** `srv/discord-chat/`
 -   **概要:** Discordの特定チャンネルと連携し、Web UI上でチャットができるサイト。
